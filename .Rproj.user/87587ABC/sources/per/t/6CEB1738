@@ -1,0 +1,26 @@
+{
+    "id": "6CEB1738",
+    "path": "C:/Users/lfpal/OneDrive/1) TRABAJO/2) OEFA/1) DFAI/6) CALIFICACION DE INFORMES/1) SCRIPT/2) INFORMES  v.1.R",
+    "project_path": "1) SCRIPT/2) INFORMES  v.1.R",
+    "type": "r_source",
+    "hash": "471162231",
+    "contents": "",
+    "dirty": false,
+    "created": 1743620797655.0,
+    "source_on_save": false,
+    "relative_order": 1,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "477,0",
+        "scrollLine": "459"
+    },
+    "folds": "6|27|56|0|\n61|34|106|2|\n111|33|172|0|\n",
+    "lastKnownWriteTime": 1748972445,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1748972445135,
+    "read_only": false,
+    "read_only_alternatives": []
+}

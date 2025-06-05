@@ -1,0 +1,93 @@
+---
+title: "Avance de la calificación de informes de supervisión"
+author: "Luis Palacios Sánchez (TF-II)"
+date: "`r paste(format(Sys.time(), '%Y-%m-%d %H:%M:%S'), Sys.timezone()) `"
+output:
+  html_document: default
+  pdf_document: default
+lang: es
+---
+<style type="text/css">
+  body{
+  font-size: 11pt;
+}
+</style>
+
+------
+
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+# Reporte de emisión documentaria DFAI
+
+El presente reporte busca realizar un adecuado seguimiento al registro en la **Herramienta de Calificación de Informes**, elaborado por la DFAI. Esta herramienta, la cual fue lanzada el 10 de enero de 2025, busca analizar la la calificación de forma y fondo de los informes de supervisión, de acuerdo a lo indicado por la directora. 
+
+## I) Ingresos 
+Al cierre de mes de marzo^[*Cabe destacar que progresivamente se estará presentando esta información de manera más actualizada en la medida que la OTI lo permita emdiante la actualización de la estructura de sus reportes en INAF o la actualización manual gracias al apoyo de Jorge Urteaga (DFAI)*] se reportó el ingreso de **264** informes entre enero y febrero a la DFAI, sin embargo, entre febrero y abril se han registrado solo **212** informes en el aplicativo.
+
+
+
+```{r load-image, echo = FALSE, out.width = '80%'}
+
+knitr::include_graphics(paste0("C:/Users/",Sys.info()[6],"/OneDrive/1) TRABAJO/2) OEFA/1) DFAI/6) CALIFICACION DE INFORMES/2) INPUT/META MARZO.jpg"))
+
+```
+
+\newpage
+
+## II) Evolución del registro
+
+El registro Como puede observarse en el siguiente cuadro, el ritmo de registro incrementó a lo largo de marzo, sin embargo, debe alcanzar a cubrir el flujo de entrada de informes para cada área.
+
+```{r include-table_1, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+
+htmltools::includeHTML(paste0("C:/Users/",Sys.info()[6],"/OneDrive/1) TRABAJO/2) OEFA/1) DFAI/6) CALIFICACION DE INFORMES/3) OUTPUT/2) TABLAS/TAB_1.1.html"))
+
+```
+
+A nivel de subsector también resulta importante cubrir el flujo de ingreso de informes
+
+```{r include-table_2, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
+
+htmltools::includeHTML(paste0("C:/Users/",Sys.info()[6],"/OneDrive/1) TRABAJO/2) OEFA/1) DFAI/6) CALIFICACION DE INFORMES/3) OUTPUT/2) TABLAS/TAB_1.2.html"))
+
+```
+
+A nivel de semana, se observa que el ritmo de llenado se ha incrementado sustancialmente en las últimas semanas, llegando a superar los promedios previos.
+
+
+```{r load-image2, echo = FALSE, out.width = '80%'}
+
+knitr::include_graphics(paste0("C:/Users/",Sys.info()[6],"/OneDrive/1) TRABAJO/2) OEFA/1) DFAI/6) CALIFICACION DE INFORMES/3) OUTPUT/3) GRAFICOS/G_1_General.jpg"))
+
+```
+
+
+\newpage
+
+## III) Resultados
+
+Como puede observarse a continuación, en general se presenta una correlación positiva, esperable respecto a lo teórico, lo cual inplica que el evaluador y la herramienta califican en sentidos similares (salvo excepciones como en los casos evaluados por hidrocarburos menores).
+
+```{r load-image3, echo = FALSE, out.width = '80%'}
+
+knitr::include_graphics(paste0("C:/Users/",Sys.info()[6],"/OneDrive/1) TRABAJO/2) OEFA/1) DFAI/6) CALIFICACION DE INFORMES/3) OUTPUT/3) GRAFICOS/G_2_Calif_especif.jpg"))
+
+```
+
+Por otra parte, se puede observar que las calificaciones a nivel de criterios son altas, llegando a más de 0.93. En general se estaría presentando poca variabilidad a nivel de criterios de forma. En la medida que los evaluadores empiecen a registrar infortmación de los criterios de fondo, se podrá tener una mayor robustez en la interpretación de los datos
+
+```{r include-table_3, echo=FALSE, message=FALSE, warning=FALSE}
+
+htmltools::includeHTML(paste0("C:/Users/",Sys.info()[6],"/OneDrive/1) TRABAJO/2) OEFA/1) DFAI/6) CALIFICACION DE INFORMES/3) OUTPUT/2) TABLAS/TAB_2.1.html"))
+
+```
+
+Finalmente, se recomienda evaluar los datos brindado con prudencia en la medida que este es un reporte preliminar.
+
+---------------
+Saludos
